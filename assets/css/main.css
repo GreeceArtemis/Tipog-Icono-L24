@@ -1,0 +1,40 @@
+header{
+  position: fixed;
+  width: 100%;
+  z-index:1000;
+  top: 0;
+}
+.coment{
+  background-color: green;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.img2{
+  border-radius: 50%;
+  height: 50px;
+}
+.logo1{
+  margin:10px 20px;
+}
+.foto1{
+  margin:10px 20px;
+}
+.icon-twitter{
+  margin: 10px 20px;
+  text-align: center;
+  color: #a5adba;
+}
+.icon-facebook-with-circle{
+   color: #a5adba;
+}
+.logolab{
+  height: 50px;
+}
+header> span{
+  margin:10px 20px;
+}
+.texto{
+  margin-top: 150px;
+}
