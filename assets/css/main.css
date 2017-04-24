@@ -4,12 +4,55 @@ header{
   z-index:1000;
   top: 0;
 }
+.linea1{
+  display: inline-block;
+  width: 2px;
+  height: 30px;
+  background: #c9d0db;
+  position: absolute;
+  left: 30%;
+  top: 6%;
+}
 .coment{
   background-color: green;
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1px;
+  position: absolute;
+    top: 30%;
+    left: 6%;
+    font-size: 20px;
+    padding-top: 3%;
+}
+.parteizq{
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  height: 50px;
+  width: 20%;
+  text-align: center;
+}
+.parteizq>div {
+  display: inline-block;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.edit{
+  margin-top: 0px;
+position: absolute;
+top: 17px;
+left: 0;
+}
+.icon-search{
+
+top: 31%;
+position: absolute;
+left: 13%;
 }
 .img2{
   border-radius: 50%;
@@ -22,18 +65,30 @@ header{
   margin:10px 20px;
 }
 .icon-twitter{
-  margin: 10px 20px;
+  margin:10px;
   text-align: center;
   color: #a5adba;
+  font-size: 20px;
+  display: inline-block;
 }
 .icon-facebook-with-circle{
    color: #a5adba;
+   font-size: 20px;
+   display: inline-block;
+}
+.redes1{
+  display: inline-block;
+    margin: 10px ;
+    position: absolute;
+    top:10px;
 }
 .logolab{
   height: 50px;
+  position: absolute;
+  right: 20%;
 }
 header> span{
-  margin:10px 20px;
+  margin:10px 10px;
 }
 .texto{
   margin-top: 150px;
