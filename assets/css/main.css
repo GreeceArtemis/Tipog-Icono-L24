@@ -4,14 +4,18 @@ header{
   z-index:1000;
   top: 0;
 }
+.encabezado{
+  display: block;
+  position: relative;
+}
 .linea1{
   display: inline-block;
   width: 2px;
   height: 30px;
   background: #c9d0db;
   position: absolute;
-  left: 30%;
-  top: 6%;
+  left: 6%;
+  top: 30%;
 }
 .coment{
   background-color: green;
@@ -91,7 +95,9 @@ header> span{
   margin:10px 10px;
 }
 .texto{
-  margin-top: 150px;
+  margin-top: 90px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .texto1{
   display: inline-block;
@@ -105,4 +111,9 @@ header> span{
 .img3{
   border-radius: 50%;
   height: 80px;
+  display: inline-block;
+}
+.datosCoder{
+  display: inline-block;
+  margin-left: 10px;
 }
